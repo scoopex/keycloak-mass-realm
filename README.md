@@ -21,7 +21,6 @@ See: https://github.com/keycloak/keycloak/issues/20453
 
 # Perform a mass import
 
-https://www.keycloak.org/server/importExport
 
 * Generate Files
   ```
@@ -31,6 +30,9 @@ https://www.keycloak.org/server/importExport
   REALM_DIR="$PWD/generated"
   ```
 * Import them
+  see: https://www.keycloak.org/server/importExport
+  Unfortunately the import takes some time because "--dir $REALM\_DIR" option does not import the 
+  realms in a single step as expected.
   ```
   cd $KEYCLOAK_DIR/bin
   for file in $REALM_DIR/*.json; do 

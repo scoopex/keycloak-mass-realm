@@ -26,7 +26,7 @@ See: https://github.com/keycloak/keycloak/issues/20453
   ```
   git clone https://gitlab.com/scoopex/keycloak-mass-realm.git
   cd keycloak-mass-realm
-  ./generate -n 400
+  ./realm_generate.py -n 400
   REALM_DIR="$PWD/generated"
   ```
 * Import them

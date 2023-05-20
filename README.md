@@ -1,4 +1,9 @@
 
+# About
+
+I created this hacking script to demonstrate a problem for a bugreport.
+See: https://github.com/keycloak/keycloak/issues/20453
+
 # Setup a test instance
 
 
